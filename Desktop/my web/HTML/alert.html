@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert prompt</title>
+</head>
+<body>
+    
+    <script>
+        // alert("fuck you biach");
+        // let name= prompt("what is your name", "guest");
+        // console.log(name);
+    
+        let deletpost = confirm("Do you really want to delete htis post");
+        console.log(deletpost);
+
+     if(deletpost){
+         console.log("your post has been deleted");
+     }
+     else{
+         console.log("your post has not been deleted");
+     }
+
+     let friends= ["ram","shyam", "ghyanshya", "mathur"];
+
+
+     //for each loo substitution of for loop
+     friends.forEach(function f(element){
+         console.log("hello there! "+ element);
+     })
+
+
+
+
+
+
+    //  ****** for of loop
+
+    for (element of friends){
+        console.log("Hello bitches "+ element);
+    }
+
+    // for in loop    --- fo objects
+
+    let employee= {
+        name: "abhi",
+         age:19, 
+         college:"NSUT"
+
+    }
+
+
+
+    //  for in loop    *******
+    for (key in employee){
+        console.log(`the ${key} of employee is ${employee[key]})`)
+    }
+
+    </script>
+</body>
+</html>

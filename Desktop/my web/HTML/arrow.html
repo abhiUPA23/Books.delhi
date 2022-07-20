@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrows</title>
+</head>
+<body>
+
+    <div class="container">
+        This is an arrow
+    </div>
+      
+
+    <script>
+        // arrow function can point outside its boundary whereas fuction can not point ouside its boundary 
+        
+        
+        
+        
+        function greet(){
+            console.log("good morning Macintosh");
+        }
+        greet();
+
+
+
+               //now the fucntion can also be written as
+               //  greetings =() => {
+               //      console.log("fuck you biach!");
+
+               //  }
+                  // OR
+
+            greetings =  () => console.log("fuck you biach");        
+              
+
+         greetings();
+
+
+         setInterval(() => {
+             console.log("we are inside set");
+         }, 3000);
+
+
+         //simlifying functions
+         let sum2= (a,b)=> a+b;
+         let half= (a)=> a/2;
+
+
+         let obj1 ={
+           
+            greety: "hello there!",
+            name: ["bholu","golu", "molu", "shyam"],
+
+            speak (){
+                this.name.forEach((student)=>{
+
+                    console.log(this.greety + " kem chho "+ student);
+
+
+
+                } )
+  
+            }
+
+         }
+
+             obj1.speak();
+
+
+        
+
+
+    </script>
+</body>
+</html>

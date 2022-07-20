@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and conditons</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+        </ul>
+    </div>
+    <script>
+        var string1= "This is a string";
+        var string2= "This is a string2";
+
+        let a = "u";
+        { //inside the braces the let funciton only act as a local variable
+            let a= "u6";
+           console.log(a);
+
+        }
+        console.log(a);
+
+        // const b= "this cannot be changed";
+
+        let age = 34;
+        age= 18;
+        if(age>18){
+            console.log("you can drink alcohol");
+        }
+        else if(age<34){
+            console.log("your age is less then 34");
+        }
+        else{
+            console.log("you cna't drink alcohol");
+        }
+
+
+
+
+        //switch statement
+        
+     const cups= 4;
+     switch (cups) {
+         case 41:
+
+             console.log("cups value is 41")
+            
+             break;
+         case 42:
+             console.log("cups ar 42")
+
+             
+             break;
+         case 43:
+             console.log("cups are 43");
+
+             
+             break;
+         case 45:
+         console.log("cups are 45");
+             break;
+
+     
+         default:
+             console.log("fuck you biach");
+             break;
+
+
+     }
+
+    </script>
+</body>
+</html>

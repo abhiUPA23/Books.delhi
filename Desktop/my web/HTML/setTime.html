@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SttTimeout and ClearTimeout</title>
+</head>
+<body>
+    
+    <div class="container">
+        Time now is <span id="time">
+
+        </span>
+    </div>
+
+    <script>
+        console.log("this is abhi");
+        // setTimeout===> allows us to run the funciton once after the interval of TimeRanges
+        // setInterval ===> allows us to run the function repeatedly after the interval of time
+
+        function greet(name, byetext){
+            console.log("What's up biach!" + name + " "+ byetext);
+        }
+        timeOute=setTimeout(greet, 5000," abhi","Take care");  // 5000 mili second   //don't call the fuction just write the fucntion only
+        //  clearTimeout(timeOute);    to stop the setTimeout
+
+        console.log(timeOute);
+
+        // setInterval(greet,1000);     //repeats for some interval
+
+
+        // intervalid= setInterval(greet,1000," abhi", "screw you");
+        // clearInterval(intervalid);
+
+
+//make a clock
+
+        function displayTime(){
+            time= new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML= time;
+
+        }
+
+        setInterval(displayTime, 1000);
+    </script>
+</body>
+</html>

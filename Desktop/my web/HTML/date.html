@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+</head>
+<style>
+    .container{
+        width: 1200px;
+        height: 50px;
+        border: 4px solid black;
+        background-color: grey;
+        border-radius: 10px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 105px;
+        color: white;
+        
+        /* align-content: center; */
+
+
+    }
+</style>
+<body>
+
+    <div class="container">
+        This is a the current time <span id="time"></span>
+    </div>
+
+    <script>
+        console.log("This is date and time experiment");
+
+        let now = new Date();
+        console.log(now);
+
+        let dt= new Date(0);   //reference date of JS
+        console.log(dt);
+
+
+    //  let newdate= new Date("2024-09-15");
+    //  console.log(newdate);
+
+
+
+    //  let newdate= new Date(year, mothm,date, hours, minutes, second, milliseconds);
+     let newdate= new Date(2022,7,23,12,9,20,30);
+     console.log(newdate);
+
+
+     // getDate and getFullYear   with newDate.getmont()
+
+
+
+     
+     function updateTime(){
+         
+         time= new Date();
+         console.log(time);
+         document.getElementById('time').innerHTML= time;
+         
+        }
+        
+        setInterval(updateTime,1000);
+
+
+
+    </script>
+    
+</body>
+</html>

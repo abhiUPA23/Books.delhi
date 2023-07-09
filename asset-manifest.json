@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abhiUPA23/Books.delhi.git/static/css/main.6aa336c0.css",
+    "main.js": "/abhiUPA23/Books.delhi.git/static/js/main.d20ec650.js",
+    "static/js/787.47bf9b6c.chunk.js": "/abhiUPA23/Books.delhi.git/static/js/787.47bf9b6c.chunk.js",
+    "index.html": "/abhiUPA23/Books.delhi.git/index.html",
+    "main.6aa336c0.css.map": "/abhiUPA23/Books.delhi.git/static/css/main.6aa336c0.css.map",
+    "main.d20ec650.js.map": "/abhiUPA23/Books.delhi.git/static/js/main.d20ec650.js.map",
+    "787.47bf9b6c.chunk.js.map": "/abhiUPA23/Books.delhi.git/static/js/787.47bf9b6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aa336c0.css",
+    "static/js/main.d20ec650.js"
+  ]
+}
